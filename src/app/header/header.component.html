@@ -1,0 +1,38 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="mat-elevation-z8">
+      <ul fxLayout="row" fxLayoutGap="" class="user-icon-sign">
+        <li>
+            <button mat-button [matMenuTriggerFor]="menu">
+                <mat-icon>person_outline</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>
+                  <mat-icon>exit_to_app</mat-icon>
+                  יציאה
+              </button>
+            </mat-menu>
+        </li> 
+        <li>
+          <button mat-flat-button color="warn" (click)="openDialog()">בחירת רכב</button>
+        </li>  
+    </ul>
+      
+
+      <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+        <button mat-icon-button (click)="toggleSideBar()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<!--navs-->
+<!--
+<mat-toolbar color="primary" class="cat-toolbar">
+  <mat-toolbar-row>
+      <div class="container" style="margin-top: 40px;"  dir="rtl">
+        <app-header-categories></app-header-categories>
+      </div>
+      
+  </mat-toolbar-row>
+</mat-toolbar>-->

@@ -1,0 +1,26 @@
+.list-horizontal .mat-list-item{
+      display: inline-block;
+      height: auto;
+      width: auto;
+      color: white;
+  }
+  ul li{
+    list-style-type: none;
+}
+.cat-card {
+  cursor: pointer;
+  width:149px;
+  height: 100px;
+  text-align: center;
+  border-left:1px solid #ffffff; 
+}
+.cat-card :hover {
+  background: black;
+}
+.cat-content{
+  padding-top: 20px;
+  height: 200px;
+}
+.cat-name{
+  margin-top: 0;
+}

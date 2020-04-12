@@ -1,0 +1,17 @@
+ul li {
+    list-style: none;
+}
+.user-icon-sign{
+    padding: 0;
+    margin: 0;
+}
+.cat-toolbar{
+  height: 100px;
+}
+@media screen and (max-width: 1200px) {
+    .cat-toolbar {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
+  }

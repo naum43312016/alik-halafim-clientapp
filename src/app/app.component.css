@@ -1,0 +1,11 @@
+mat-sidenav-container{
+    height: 100%;
+}
+
+mat-sidenav{
+    background-color: #3f51b5;
+    width: 200px;
+}
+ul li{
+    list-style-type: none;
+}
